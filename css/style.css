@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-size: 1.4rem;
+}
+
+.heading {
+    width: 100%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.heading--1 {
+    font-size: 6rem;
+    margin-top: 4rem;
+}
+
+.heading--2 {
+    font-size: 4rem;
+    margin: 0 2rem;
+}
+
+.heading--4 {
+    font-size: 3rem;
+    margin: 1.8rem 2.5rem;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.section {
+    margin: 4rem auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+    border: 1px solid #000;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.activity-link {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+}
+
+.link-img {
+    width: 100%;
+    height: 100%;
+}
+
+.day-activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.info-paragraph {
+    font-size: 2.2rem;
+    margin: 1.8rem 0;
+}
+
+.icon-holder {
+    font-weight: 600;
+}
+
+.style-hr {
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+    margin-bottom: 3rem;
+}
+
+ 
+
+
