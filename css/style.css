@@ -43,7 +43,7 @@ body {
 
 .heading--4 {
     font-size: 3rem;
-    margin: 1.8rem 0;
+    /* margin: 1.8rem 0; */
     text-transform: uppercase;
     text-align: start;
 }
@@ -103,10 +103,12 @@ body {
 
 .heading-container {
     width: 100%;
+    height: 4rem;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     gap: 2rem;
+    margin: 1.8rem 0;
 }
 
 .icon-container {
@@ -185,9 +187,8 @@ body {
         font-size: 2.8rem;
         width: 100%;
         text-align: center;
-        margin: 1.8rem auto;
+        /* margin: 1.8rem auto; */
     }
-    
 
     .header {
         width: 100vw;
@@ -209,6 +210,12 @@ body {
         width: 100%;
         gap: 3rem;
         border: none;
+    }
+
+    .heading-container {
+        width: 100%;
+        height: 3.4rem;
+        margin: 1.6rem 0;
     }
 
     .activity-link {
