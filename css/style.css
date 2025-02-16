@@ -103,7 +103,7 @@ body {
 
 .heading-container {
     width: 100%;
-    min-height: 7rem;
+    min-height: 4rem;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -214,9 +214,8 @@ body {
 
     .heading-container {
         width: 100%;
-        height: auto;
+        min-height: 7rem;
         margin: 1.6rem 0;
-        flex-grow: 1;
     }
 
     .activity-link {
