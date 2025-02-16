@@ -1,5 +1,6 @@
 :root {
-    --main-red-colour: #f10100
+    --main-red-colour: #f10100;
+    --bg-gray: #e5e8e8;
   }
 
 
@@ -95,10 +96,6 @@ body {
     border-radius: 3rem;
     -webkit-box-shadow: 5px 8px 20px 4px rgba(128,128,128,0.71); 
      box-shadow: 5px 8px 20px 4px rgba(128,128,128,0.71);
-}
-
-.section--1 {
-    border-radius: 0 0 3rem 3rem;
 }
 
 .heading-container {
@@ -213,9 +210,13 @@ body {
         border-radius: 0;
         box-shadow: none;
     }
+
+    .section--1 {
+        border-radius: 0 0 3rem 3rem;
+    }
     
     .bg-gray {
-        background-color: #E9ECEF;
+        background-color: var(--bg-gray);
     }
 
     .heading-container {
