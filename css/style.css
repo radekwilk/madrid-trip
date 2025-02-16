@@ -210,6 +210,12 @@ body {
         width: 100%;
         gap: 3rem;
         border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .bg-gray {
+        background-color: #E9ECEF;
     }
 
     .heading-container {
